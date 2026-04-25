@@ -1,6 +1,6 @@
 <script setup>
 import { useRoute } from "vue-router";
-import Footer from "./components/Footer.vue";
+import Footer from "./components/footer.vue";
 import Header from "./components/header.vue";
 
 const route = useRoute();
