@@ -73,7 +73,7 @@ const watches = [
   {
     name: "Vanguard Chrono",
     price: "52.400 USD",
-    image: "../img/nu7.jpg",
+    image: "../img/nu10.jpg",
   },
   {
     name: "Vanguard Chrono",

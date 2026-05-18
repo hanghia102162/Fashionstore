@@ -81,76 +81,117 @@
     </section>
 
     <!-- PRODUCT -->
-    <section class="py-16 px-6 bg-[#faf8f4]">
-      <div class="max-w-5xl mx-auto">
-        <div class="grid md:grid-cols-3 gap-4">
-          <!-- Big card -->
+    <section class="py-20 px-6 bg-[#faf8f4]">
+      <div class="max-w-7xl mx-auto">
+        <!-- Title -->
+        <div class="text-center mb-14">
+          <p class="text-sm tracking-[4px] text-[#b89a6a] uppercase mb-3">
+            New Collection
+          </p>
+
+          <h2 class="text-4xl font-light text-[#1a1a18]">Timeless Luxury</h2>
+        </div>
+
+        <!-- Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-5">
+          <!-- Big Left -->
           <div
-            class="md:col-span-2 relative group overflow-hidden aspect-[16/9]"
+            class="md:col-span-2 md:row-span-2 relative overflow-hidden group rounded-2xl"
           >
+            <img
+              src="/img/shop-quan-ao-nu-bien-hoa-1-min.jpg"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-700"
+            />
+
             <div
-              class="absolute inset-0 bg-gradient-to-br from-[#4b362f] to-[#1a1a18] opacity-60"
+              class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"
             ></div>
 
-            <img
-              src="/img/21e70e03047119b47129730297a92b33.jpg"
-              class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
-            />
+            <div class="absolute bottom-8 left-8 text-white">
+              <p class="text-sm tracking-[3px] text-[#d4b07b] mb-2">
+                NEW ARRIVAL
+              </p>
 
-            <div class="absolute bottom-4 left-4 text-white">
-              <h3 class="text-lg">Iconic Outerwear</h3>
-              <p class="text-xs text-[#b89a6a]">SHOP THE COLLECTION</p>
+              <h3 class="text-3xl font-light mb-2">Iconic Outerwear</h3>
+
+              <button
+                class="mt-3 border border-white px-5 py-2 text-sm hover:bg-white hover:text-black transition"
+              >
+                Shop Now
+              </button>
             </div>
           </div>
 
-          <!-- Right column -->
-          <div class="relative group overflow-hidden aspect-[3/4]">
+          <!-- Card -->
+          <div class="relative overflow-hidden group rounded-2xl aspect-[3/4]">
             <img
               src="/img/db843816e9d16719397ff4dda1fe8b51.jpg"
-              class="w-full h-full object-cover group-hover:scale-105 transition"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-700"
             />
-            <div class="absolute bottom-4 left-4">
-              <h3 class="text-lg text-white">Leather Goods</h3>
+
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"
+            ></div>
+
+            <div class="absolute bottom-5 left-5 text-white">
+              <h3 class="text-xl font-light">Leather Goods</h3>
             </div>
           </div>
 
-          <div class="relative group overflow-hidden aspect-[3/4]">
+          <!-- Card -->
+          <div class="relative overflow-hidden group rounded-2xl aspect-[3/4]">
             <img
               src="/img/15f174112e6e4b05e1a0fd8a5df3b113.jpg"
-              class="w-full h-full object-cover group-hover:scale-105 transition"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-700"
             />
-            <div class="absolute bottom-4 left-4">
-              <h3 class="text-lg text-white">Fine Jewelry</h3>
+
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"
+            ></div>
+
+            <div class="absolute bottom-5 left-5 text-white">
+              <h3 class="text-xl font-light">Fine Jewelry</h3>
             </div>
           </div>
 
-          <!-- NEW ROW - thêm 2 ảnh -->
-          <div class="relative group overflow-hidden aspect-[4/3]">
+          <!-- Bottom Left -->
+          <div class="relative overflow-hidden group rounded-2xl aspect-[4/3]">
             <img
               src="/img/nam1.jpg"
-              class="w-full h-full object-cover group-hover:scale-105 transition"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-700"
             />
-            <div class="absolute bottom-4 left-4">
-              <h3 class="text-lg text-white">Fine Jewelry</h3>
+
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"
+            ></div>
+
+            <div class="absolute bottom-5 left-5 text-white">
+              <h3 class="text-xl font-light">Urban Essentials</h3>
             </div>
           </div>
 
-          <div class="relative group overflow-hidden aspect-[4/3]">
+          <!-- Bottom Right -->
+          <div class="relative overflow-hidden group rounded-2xl aspect-[4/3]">
             <img
               src="/img/nam2.jpg"
-              class="w-full h-full object-cover group-hover:scale-105 transition"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-700"
             />
-            <div class="absolute bottom-4 left-4">
-              <h3 class="text-lg text-white">Fine Jewelry</h3>
+
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"
+            ></div>
+
+            <div class="absolute bottom-5 left-5 text-white">
+              <h3 class="text-xl font-light">Minimal Style</h3>
             </div>
           </div>
+        </div>
 
-          <!-- Quote full width -->
-          <div class="md:col-span-3 text-center mt-4">
-            <p class="italic text-[#8c8880] text-base max-w-md mx-auto">
-              "Elegance is not being noticed, it's being remembered."
-            </p>
-          </div>
+        <!-- Quote -->
+        <div class="text-center mt-16">
+          <p class="italic text-[#8c8880] text-lg max-w-2xl mx-auto leading-8">
+            "Elegance is not standing out, but being remembered."
+          </p>
         </div>
       </div>
     </section>
@@ -169,7 +210,7 @@
         <div>
           <div class="h-64 bg-[#e7e1c8] overflow-hidden mb-5">
             <img
-              src="/img/vay1.jpg"
+              src="/img/image1.png"
               class="w-full h-full object-cover hover:scale-105 transition duration-500"
             />
           </div>
@@ -193,7 +234,7 @@
         <div>
           <div class="h-64 bg-[#e7e1c8] overflow-hidden mb-5">
             <img
-              src="/img/vay2.jpg"
+              src="/img/image.png"
               class="w-full h-full object-cover hover:scale-105 transition duration-500"
             />
           </div>
@@ -217,7 +258,7 @@
         <div>
           <div class="h-64 bg-[#1a1a18] overflow-hidden mb-5">
             <img
-              src="/img/vay3.jpg"
+              src="/img/image3.png"
               class="w-full h-full object-cover hover:scale-105 transition duration-500 opacity-80"
             />
           </div>

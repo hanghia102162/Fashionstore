@@ -8,9 +8,28 @@
 
       <!-- Desktop Menu -->
       <nav class="space-x-6 hidden md:block">
-        <router-link to="/" class="hover:text-gray-500">Home</router-link>
-        <router-link to="/store" class="hover:text-gray-500">
+        <router-link
+          to="/"
+          class="relative text-[18px] font-medium transition-all duration-300 hover:text-gray-500 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-gray-500 after:transition-all after:duration-300 hover:after:w-full"
+          >Home</router-link
+        >
+        <router-link
+          to="/store"
+          class="relative text-[18px] font-medium transition-all duration-300 hover:text-gray-500 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-gray-500 after:transition-all after:duration-300 hover:after:w-full"
+        >
           Shop
+        </router-link>
+        <router-link
+          to="/store"
+          class="relative text-[18px] font-medium transition-all duration-300 hover:text-gray-500 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-gray-500 after:transition-all after:duration-300 hover:after:w-full"
+        >
+          Collections
+        </router-link>
+        <router-link
+          to="/store"
+          class="relative text-[18px] font-medium transition-all duration-300 hover:text-gray-500 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-gray-500 after:transition-all after:duration-300 hover:after:w-full"
+        >
+          Contact
         </router-link>
       </nav>
 

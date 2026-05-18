@@ -135,7 +135,7 @@ const watches = ref([
   {
     name: "Lunar Phase",
     price: "53.900 USD",
-    image: "/img/nu5.jpg",
+    image: "/img/nam5.jpg",
   },
   {
     name: "Abyssal Deep",
